@@ -1,7 +1,9 @@
 /* Global styles */
 
 html {
-  cursor: url('./assets/cursor.png'), auto;
+      scroll-behavior: smooth;
+
+  cursor: url('./assets/cursor.png'), default;
 }
 @font-face {
   font-family: 'font';
