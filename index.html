@@ -14,22 +14,28 @@
 
 <body>
     <audio id="aud" src="./assets/audio.mp3"  loop></audio>
-
+<script>
+    function scrollToSection(sectionId) {
+        var section = document.getElementById(sectionId);
+        if (section) {
+            section.scrollIntoView({ behavior: 'smooth' });
+        }
+    }
+</script>
     <header>
         <div class="logo">
             <h1>My Portfolio</h1>
         </div>        
         <nav>
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about_me.html">About Me</a></li>
-                <li><a href="project.html">Projects</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="#about" onclick="scrollToSection('about')">About Me</a></li>
+                <li><a href="#work" onclick="scrollToSection('work')">Work</a></li>
+                <li><a href="#contact_me" onclick="scrollToSection('contact_me')">Contact Me!</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <section class="about">
+        <section class="about" >
            
             <div class="rectangle_outer">
                 <div class="rotate_outer">
@@ -85,7 +91,7 @@
         
     </main>
     <main>
-        <section class="about">
+        <section class="about" id="about">
     
             <div class="rectangle_outer">
                 <div class="rotate_outer">
@@ -125,7 +131,7 @@
     </main>
 
     <main>
-        <section class="about" >
+        <section class="about" id="work">
             <div class="rectangle_outer">
                 <div class="rotate_outer">
             
@@ -220,7 +226,7 @@
 
     </main>
 <main>
-    <section class="about">
+    <section class="about" id="contact_me">
 
         <div class="rectangle_outer">
             <div class="rotate_outer">
