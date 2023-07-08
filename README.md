@@ -1,7 +1,6 @@
-# nayan21402.github.io
-# My Portfolio
+# [Portfolio Website](https://nayan21402.github.io/) 
 
-Welcome to My Portfolio! This website showcases my work, skills, and projects.
+Welcome! This website showcases my work, skills, and projects.
 
 
 ## About
